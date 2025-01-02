@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="testCollection" time="49.067" tests="1" failures="0" errors="0">
+   <testsuite name="test1" tests="1" failures="0" errors="0" time="33.984" skipped="0" timestamp="03-01-2025T02:20:07" hostname="lenovo - 192.168.1.13" id="Test Suites/test1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\lenovo\\Katalon Studio\\AssignmentProject\\Reports\\20250103_021949\\test1\\20250103_021951"/>
+         <property name="logFiles" value="C:\\Users\\lenovo\\Katalon Studio\\AssignmentProject\\Reports\\20250103_021949\\test1\\20250103_021951\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="lenovo - 192.168.1.13"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.0.1.223"/>
+         <property name="browser" value="Chrome 128.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.13"/>
+         <property name="sessionId" value="f2f4fc6444336d574d7fe9b4d114acaa"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/EndToEndTestCaseSauceDemo" time="33.585" classname="Test Cases/EndToEndTestCaseSauceDemo" status="PASSED">
+         <system-out><![CDATA[03-01-2025T02:20:08 - [TEST_CASE][PASSED] - Test Cases/EndToEndTestCaseSauceDemo: Test Cases/EndToEndTestCaseSauceDemo
+
+03-01-2025T02:20:08 - [TEST_STEP][PASSED] - Start listener action : execBeforeTestCase: Current window maximized
+
+03-01-2025T02:20:08 - [TEST_STEP][PASSED] - openBrowserLaunchApplication(): null
+
+03-01-2025T02:20:08 - [TEST_STEP][PASSED] - openBrowser(null): Browser is opened with url: 'null'
+
+03-01-2025T02:20:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-01-2025T02:20:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-01-2025T02:20:13 - [MESSAGE][PASSED] - Browser is opened with url: 'null'
+
+03-01-2025T02:20:13 - [TEST_STEP][PASSED] - deleteAllCookies(): Delete all cookies successfully
+
+03-01-2025T02:20:13 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+03-01-2025T02:20:13 - [TEST_STEP][PASSED] - navigateToUrl($GlobalVariable.appUrl, STOP_ON_FAILURE): Navigate to 'https://www.saucedemo.com/' successfully
+
+03-01-2025T02:20:14 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+03-01-2025T02:20:14 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-01-2025T02:20:14 - [MESSAGE][PASSED] - Current window maximized
+
+03-01-2025T02:20:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_SauceLabsDashboard/inputBox_Username"), wrongUsername): Text 'standard_usea' is set on object 'Object Repository/Page_SauceLabsDashboard/inputBox_Username'
+
+03-01-2025T02:20:17 - [MESSAGE][PASSED] - Text 'standard_usea' is set on object 'Object Repository/Page_SauceLabsDashboard/inputBox_Username'
+
+03-01-2025T02:20:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_SauceLabsDashboard/button_Login")): Object: 'Object Repository/Page_SauceLabsDashboard/button_Login' is clicked on
+
+03-01-2025T02:20:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SauceLabsDashboard/button_Login' is clicked on
+
+03-01-2025T02:20:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_SauceLabsDashboard/webElement_ErrorMessage"), midDelay): Object 'Object Repository/Page_SauceLabsDashboard/webElement_ErrorMessage' is present
+
+03-01-2025T02:20:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+03-01-2025T02:20:18 - [MESSAGE][PASSED] - Object 'Object Repository/Page_SauceLabsDashboard/webElement_ErrorMessage' is present
+
+03-01-2025T02:20:18 - [TEST_STEP][PASSED] - clearText(findTestObject("Object Repository/Page_SauceLabsDashboard/inputBox_Username")): Text of object 'Object Repository/Page_SauceLabsDashboard/inputBox_Username' is cleared
+
+03-01-2025T02:20:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_SauceLabsDashboard/inputBox_Username' is cleared
+
+03-01-2025T02:20:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_SauceLabsDashboard/inputBox_Username"), username): Text 'standard_user' is set on object 'Object Repository/Page_SauceLabsDashboard/inputBox_Username'
+
+03-01-2025T02:20:20 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_SauceLabsDashboard/inputBox_Username'
+
+03-01-2025T02:20:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_SauceLabsDashboard/inputBox_Password"), password): Text 'secret_sauce' is set on object 'Object Repository/Page_SauceLabsDashboard/inputBox_Password'
+
+03-01-2025T02:20:21 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Page_SauceLabsDashboard/inputBox_Password'
+
+03-01-2025T02:20:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_SauceLabsDashboard/button_Login")): Object: 'Object Repository/Page_SauceLabsDashboard/button_Login' is clicked on
+
+03-01-2025T02:20:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SauceLabsDashboard/button_Login' is clicked on
+
+03-01-2025T02:20:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Products/webElement_Products", ["productName":product1])): Object: 'Object Repository/Page_Products/webElement_Products' is clicked on
+
+03-01-2025T02:20:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Products/webElement_Products' is clicked on
+
+03-01-2025T02:20:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Products/webElement_Products", ["productName":product2])): Object: 'Object Repository/Page_Products/webElement_Products' is clicked on
+
+03-01-2025T02:20:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Products/webElement_Products' is clicked on
+
+03-01-2025T02:20:22 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Page_Products/icon_cart"), waitForTimeOut): Scroll to object 'Object Repository/Page_Products/icon_cart' successfully
+
+03-01-2025T02:20:23 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Products/icon_cart' successfully
+
+03-01-2025T02:20:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Products/icon_cart")): Object: 'Object Repository/Page_Products/icon_cart' is clicked on
+
+03-01-2025T02:20:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Products/icon_cart' is clicked on
+
+03-01-2025T02:20:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_YourCart/button_ContinueShopping")): Object: 'Object Repository/Page_YourCart/button_ContinueShopping' is clicked on
+
+03-01-2025T02:20:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_YourCart/button_ContinueShopping' is clicked on
+
+03-01-2025T02:20:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Products/webElement_Products", ["productName":product3])): Object: 'Object Repository/Page_Products/webElement_Products' is clicked on
+
+03-01-2025T02:20:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Products/webElement_Products' is clicked on
+
+03-01-2025T02:20:24 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Page_Products/icon_cart"), waitForTimeOut): Scroll to object 'Object Repository/Page_Products/icon_cart' successfully
+
+03-01-2025T02:20:25 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Products/icon_cart' successfully
+
+03-01-2025T02:20:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Products/icon_cart")): Object: 'Object Repository/Page_Products/icon_cart' is clicked on
+
+03-01-2025T02:20:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Products/icon_cart' is clicked on
+
+03-01-2025T02:20:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_YourCart/button_Remove", ["productName":product2])): Object: 'Object Repository/Page_YourCart/button_Remove' is clicked on
+
+03-01-2025T02:20:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_YourCart/button_Remove' is clicked on
+
+03-01-2025T02:20:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_YourCart/button_Checkout")): Object: 'Object Repository/Page_YourCart/button_Checkout' is clicked on
+
+03-01-2025T02:20:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_YourCart/button_Checkout' is clicked on
+
+03-01-2025T02:20:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CheckoutInformation/button_Continue")): Object: 'Object Repository/Page_CheckoutInformation/button_Continue' is clicked on
+
+03-01-2025T02:20:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CheckoutInformation/button_Continue' is clicked on
+
+03-01-2025T02:20:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_CheckoutInformation/webElement_ErrorMessage"), midDelay): Object 'Object Repository/Page_CheckoutInformation/webElement_ErrorMessage' is present
+
+03-01-2025T02:20:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+03-01-2025T02:20:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CheckoutInformation/webElement_ErrorMessage' is present
+
+03-01-2025T02:20:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CheckoutInformation/inputBox_FirstName"), firstName): Text 'Shiv' is set on object 'Object Repository/Page_CheckoutInformation/inputBox_FirstName'
+
+03-01-2025T02:20:31 - [MESSAGE][PASSED] - Text 'Shiv' is set on object 'Object Repository/Page_CheckoutInformation/inputBox_FirstName'
+
+03-01-2025T02:20:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CheckoutInformation/inputBox_LastName"), lastName): Text 'Sharma' is set on object 'Object Repository/Page_CheckoutInformation/inputBox_LastName'
+
+03-01-2025T02:20:32 - [MESSAGE][PASSED] - Text 'Sharma' is set on object 'Object Repository/Page_CheckoutInformation/inputBox_LastName'
+
+03-01-2025T02:20:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CheckoutInformation/inputBox_PostalCode"), postalCode): Text '246763' is set on object 'Object Repository/Page_CheckoutInformation/inputBox_PostalCode'
+
+03-01-2025T02:20:33 - [MESSAGE][PASSED] - Text '246763' is set on object 'Object Repository/Page_CheckoutInformation/inputBox_PostalCode'
+
+03-01-2025T02:20:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CheckoutInformation/button_Continue")): Object: 'Object Repository/Page_CheckoutInformation/button_Continue' is clicked on
+
+03-01-2025T02:20:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CheckoutInformation/button_Continue' is clicked on
+
+03-01-2025T02:20:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Products/icon_cart")): Object: 'Object Repository/Page_Products/icon_cart' is clicked on
+
+03-01-2025T02:20:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Products/icon_cart' is clicked on
+
+03-01-2025T02:20:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_YourCart/button_Checkout")): Object: 'Object Repository/Page_YourCart/button_Checkout' is clicked on
+
+03-01-2025T02:20:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_YourCart/button_Checkout' is clicked on
+
+03-01-2025T02:20:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CheckoutInformation/inputBox_FirstName"), firstName): Text 'Shiv' is set on object 'Object Repository/Page_CheckoutInformation/inputBox_FirstName'
+
+03-01-2025T02:20:36 - [MESSAGE][PASSED] - Text 'Shiv' is set on object 'Object Repository/Page_CheckoutInformation/inputBox_FirstName'
+
+03-01-2025T02:20:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CheckoutInformation/inputBox_LastName"), lastName): Text 'Sharma' is set on object 'Object Repository/Page_CheckoutInformation/inputBox_LastName'
+
+03-01-2025T02:20:37 - [MESSAGE][PASSED] - Text 'Sharma' is set on object 'Object Repository/Page_CheckoutInformation/inputBox_LastName'
+
+03-01-2025T02:20:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CheckoutInformation/inputBox_PostalCode"), postalCode): Text '246763' is set on object 'Object Repository/Page_CheckoutInformation/inputBox_PostalCode'
+
+03-01-2025T02:20:38 - [MESSAGE][PASSED] - Text '246763' is set on object 'Object Repository/Page_CheckoutInformation/inputBox_PostalCode'
+
+03-01-2025T02:20:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CheckoutInformation/button_Continue")): Object: 'Object Repository/Page_CheckoutInformation/button_Continue' is clicked on
+
+03-01-2025T02:20:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CheckoutInformation/button_Continue' is clicked on
+
+03-01-2025T02:20:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CheckoutOverview/button_Finish")): Object: 'Object Repository/Page_CheckoutOverview/button_Finish' is clicked on
+
+03-01-2025T02:20:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CheckoutOverview/button_Finish' is clicked on
+
+03-01-2025T02:20:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CheckoutComplete/button_BackHome")): Object: 'Object Repository/Page_CheckoutComplete/button_BackHome' is clicked on
+
+03-01-2025T02:20:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CheckoutComplete/button_BackHome' is clicked on
+
+03-01-2025T02:20:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Products/icon_HamburgerMenu")): Object: 'Object Repository/Page_Products/icon_HamburgerMenu' is clicked on
+
+03-01-2025T02:20:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Products/icon_HamburgerMenu' is clicked on
+
+03-01-2025T02:20:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Products/webElement_Logout")): Object: 'Object Repository/Page_Products/webElement_Logout' is clicked on
+
+03-01-2025T02:20:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Products/webElement_Logout' is clicked on
+
+03-01-2025T02:20:41 - [TEST_STEP][PASSED] - Start listener action : execAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[03-01-2025T02:20:07 - [TEST_SUITE][PASSED] - test1: Test Cases/EndToEndTestCaseSauceDemo]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

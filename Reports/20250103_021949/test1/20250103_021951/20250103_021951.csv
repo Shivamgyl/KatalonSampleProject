@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test1,Chrome 128.0.0.0,,,03-01-2025 02:20:07,03-01-2025 02:20:41,33.984s,PASSED
+,,,,,,,
+Test Cases/EndToEndTestCaseSauceDemo,Chrome 128.0.0.0,,,03-01-2025 02:20:08,03-01-2025 02:20:41,33.585s,PASSED
+Start listener action : execBeforeTestCase,Chrome 128.0.0.0,,,03-01-2025 02:20:08,03-01-2025 02:20:14,5.985s,PASSED
+"setText(findTestObject(""Object Repository/Page_SauceLabsDashboard/inputBox_Username""), wrongUsername)",Chrome 128.0.0.0,,,03-01-2025 02:20:15,03-01-2025 02:20:17,2.659s,PASSED
+"click(findTestObject(""Object Repository/Page_SauceLabsDashboard/button_Login""))",Chrome 128.0.0.0,,,03-01-2025 02:20:17,03-01-2025 02:20:18,0.594s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_SauceLabsDashboard/webElement_ErrorMessage""), midDelay)",Chrome 128.0.0.0,,,03-01-2025 02:20:18,03-01-2025 02:20:18,0.497s,PASSED
+"clearText(findTestObject(""Object Repository/Page_SauceLabsDashboard/inputBox_Username""))",Chrome 128.0.0.0,,,03-01-2025 02:20:18,03-01-2025 02:20:19,0.447s,PASSED
+"setText(findTestObject(""Object Repository/Page_SauceLabsDashboard/inputBox_Username""), username)",Chrome 128.0.0.0,,,03-01-2025 02:20:19,03-01-2025 02:20:20,0.947s,PASSED
+"setText(findTestObject(""Object Repository/Page_SauceLabsDashboard/inputBox_Password""), password)",Chrome 128.0.0.0,,,03-01-2025 02:20:20,03-01-2025 02:20:21,1.089s,PASSED
+"click(findTestObject(""Object Repository/Page_SauceLabsDashboard/button_Login""))",Chrome 128.0.0.0,,,03-01-2025 02:20:21,03-01-2025 02:20:21,0.473s,PASSED
+"click(findTestObject(""Object Repository/Page_Products/webElement_Products"", [""productName"":product1]))",Chrome 128.0.0.0,,,03-01-2025 02:20:21,03-01-2025 02:20:22,0.574s,PASSED
+"click(findTestObject(""Object Repository/Page_Products/webElement_Products"", [""productName"":product2]))",Chrome 128.0.0.0,,,03-01-2025 02:20:22,03-01-2025 02:20:22,0.628s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_Products/icon_cart""), waitForTimeOut)",Chrome 128.0.0.0,,,03-01-2025 02:20:22,03-01-2025 02:20:23,0.469s,PASSED
+"click(findTestObject(""Object Repository/Page_Products/icon_cart""))",Chrome 128.0.0.0,,,03-01-2025 02:20:23,03-01-2025 02:20:23,0.376s,PASSED
+"click(findTestObject(""Object Repository/Page_YourCart/button_ContinueShopping""))",Chrome 128.0.0.0,,,03-01-2025 02:20:23,03-01-2025 02:20:24,0.669s,PASSED
+"click(findTestObject(""Object Repository/Page_Products/webElement_Products"", [""productName"":product3]))",Chrome 128.0.0.0,,,03-01-2025 02:20:24,03-01-2025 02:20:24,0.489s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_Products/icon_cart""), waitForTimeOut)",Chrome 128.0.0.0,,,03-01-2025 02:20:24,03-01-2025 02:20:25,0.558s,PASSED
+"click(findTestObject(""Object Repository/Page_Products/icon_cart""))",Chrome 128.0.0.0,,,03-01-2025 02:20:25,03-01-2025 02:20:28,2.609s,PASSED
+"click(findTestObject(""Object Repository/Page_YourCart/button_Remove"", [""productName"":product2]))",Chrome 128.0.0.0,,,03-01-2025 02:20:28,03-01-2025 02:20:28,0.714s,PASSED
+"click(findTestObject(""Object Repository/Page_YourCart/button_Checkout""))",Chrome 128.0.0.0,,,03-01-2025 02:20:28,03-01-2025 02:20:29,0.422s,PASSED
+"click(findTestObject(""Object Repository/Page_CheckoutInformation/button_Continue""))",Chrome 128.0.0.0,,,03-01-2025 02:20:29,03-01-2025 02:20:29,0.625s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CheckoutInformation/webElement_ErrorMessage""), midDelay)",Chrome 128.0.0.0,,,03-01-2025 02:20:29,03-01-2025 02:20:30,0.524s,PASSED
+"setText(findTestObject(""Object Repository/Page_CheckoutInformation/inputBox_FirstName""), firstName)",Chrome 128.0.0.0,,,03-01-2025 02:20:30,03-01-2025 02:20:31,0.883s,PASSED
+"setText(findTestObject(""Object Repository/Page_CheckoutInformation/inputBox_LastName""), lastName)",Chrome 128.0.0.0,,,03-01-2025 02:20:31,03-01-2025 02:20:32,1.220s,PASSED
+"setText(findTestObject(""Object Repository/Page_CheckoutInformation/inputBox_PostalCode""), postalCode)",Chrome 128.0.0.0,,,03-01-2025 02:20:32,03-01-2025 02:20:33,1.187s,PASSED
+"click(findTestObject(""Object Repository/Page_CheckoutInformation/button_Continue""))",Chrome 128.0.0.0,,,03-01-2025 02:20:33,03-01-2025 02:20:34,0.615s,PASSED
+"click(findTestObject(""Object Repository/Page_Products/icon_cart""))",Chrome 128.0.0.0,,,03-01-2025 02:20:34,03-01-2025 02:20:34,0.616s,PASSED
+"click(findTestObject(""Object Repository/Page_YourCart/button_Checkout""))",Chrome 128.0.0.0,,,03-01-2025 02:20:34,03-01-2025 02:20:35,0.652s,PASSED
+"setText(findTestObject(""Object Repository/Page_CheckoutInformation/inputBox_FirstName""), firstName)",Chrome 128.0.0.0,,,03-01-2025 02:20:35,03-01-2025 02:20:36,0.987s,PASSED
+"setText(findTestObject(""Object Repository/Page_CheckoutInformation/inputBox_LastName""), lastName)",Chrome 128.0.0.0,,,03-01-2025 02:20:36,03-01-2025 02:20:37,0.964s,PASSED
+"setText(findTestObject(""Object Repository/Page_CheckoutInformation/inputBox_PostalCode""), postalCode)",Chrome 128.0.0.0,,,03-01-2025 02:20:37,03-01-2025 02:20:38,0.978s,PASSED
+"click(findTestObject(""Object Repository/Page_CheckoutInformation/button_Continue""))",Chrome 128.0.0.0,,,03-01-2025 02:20:38,03-01-2025 02:20:39,0.652s,PASSED
+"click(findTestObject(""Object Repository/Page_CheckoutOverview/button_Finish""))",Chrome 128.0.0.0,,,03-01-2025 02:20:39,03-01-2025 02:20:39,0.655s,PASSED
+"click(findTestObject(""Object Repository/Page_CheckoutComplete/button_BackHome""))",Chrome 128.0.0.0,,,03-01-2025 02:20:39,03-01-2025 02:20:40,0.553s,PASSED
+"click(findTestObject(""Object Repository/Page_Products/icon_HamburgerMenu""))",Chrome 128.0.0.0,,,03-01-2025 02:20:40,03-01-2025 02:20:41,0.632s,PASSED
+"click(findTestObject(""Object Repository/Page_Products/webElement_Logout""))",Chrome 128.0.0.0,,,03-01-2025 02:20:41,03-01-2025 02:20:41,0.685s,PASSED
+Start listener action : execAfterTestCase,Chrome 128.0.0.0,,,03-01-2025 02:20:41,03-01-2025 02:20:41,0.000s,PASSED
